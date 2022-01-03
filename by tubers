@@ -2,7 +2,7 @@
 
 -- Credits to infinite yield, harkinian, dex creators
 
-prefix = ":?"
+prefix = ":"
 wait(0.3)
 Commands = {
 	'[-] cmdbar is shown when ; is pressed.',
@@ -213,7 +213,7 @@ banpl = false
 changingstate = false
 statechosen = 0
 
-adminversion = "Reviz Admin by illremember, Version 2.0"
+adminversion = "tubers Admin by tubers93, Version 2.0"
 
 flying = false
 speedfly = 1
@@ -261,7 +261,7 @@ CMDBAR.TextColor3 = Color3.new(0.945098, 0.945098, 0.945098)
 CMDBAR.TextScaled = true
 CMDBAR.TextSize = 14
 CMDBAR.TextWrapped = true
-CMDBAR.Text = "Press if not working"
+CMDBAR.Text = "Press to use CmdBar"
 
 local CMDS = Instance.new("ScreenGui")
 local CMDSFRAME = Instance.new("Frame")
@@ -3193,7 +3193,7 @@ ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 ImageLabel.BackgroundTransparency = 1
 ImageLabel.Position = UDim2.new(0, 0, 0, 0)
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=5389666379"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=1254693383"
 Frame:TweenPosition(UDim2.new(0, 0, 0.2, 0), "Out", "Elastic", 3)
 wait(3.01)
 Frame:TweenPosition(UDim2.new(0, 0, 1.5, 0), "Out", "Elastic", 5)
