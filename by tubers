@@ -1,11 +1,17 @@
 -- Creator: tubers93
+--             _           _        
+--    /\      | |         (_)       
+--   /  \   __| |_ __ ___  _ _ __   
+--  / /\ \ / _` | '_ ` _ \| | '_ \  
+-- / ____ \ (_| | | | | | | | | | | 
+--/_/    \_\__,_|_| |_| |_|_|_| |_| 
 
 -- Credits to infinite yield, harkinian, dex creators
 
 prefix = ":"
 wait(0.3)
 Commands = {
-	'[-] cmdbar is shown when ; is pressed.',
+	'[-] click the CmdBar to type commands.',
 	'[1] kill [plr] -- You need a tool! Will kill the player, use rkill to kill you and player',
 	'[2] bring [plr] -- You need a tool! Will bring player to you',
 	'[3] spin [plr] -- You need a tool! Makes you and the player spin crazy',
@@ -3160,22 +3166,22 @@ end)
 
 wait(0.3)
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Loaded successfully!";
-	Text = "tubers Admin V2 by tubers93";
+	Title = "✅ Loaded successfully!";
+	Text = "Current version 2.0.1, Script was by Tubers93";
 })
 wait(0.1)
 print("tubers Admin V2 loaded!")
 if game:GetService("Workspace").FilteringEnabled == true then
 	warn("FE is Enabled (Filtering Enabled)")
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "FE is Enabled";
-		Text = "Filtering Enabled. Enjoy using tubers Admin!";
+		Title = "✅ script Loaded";
+		Text = "Thanks For using this script, Enjoy using tubers Admin!";
 	})
 else
 	warn("FE is Disabled (Filtering Disabled) Consider using a different admin script.")
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "FE is Disabled";
-		Text = "Filtering Disabled. Consider using a different admin script.";
+		Title = "❌ Not Working";
+		Text = "Script does not work in this game, try using a different admin script.";
 	})
 end
 
